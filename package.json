@@ -1,0 +1,29 @@
+{
+  "name": "11",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.19.0",
+    "cnpm": "^6.1.1",
+    "cookie-parser": "^1.4.5",
+    "expess": "0.0.1-security",
+    "express": "^4.17.1",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-uglify": "^3.0.2",
+    "mysql": "^2.18.1"
+  },
+  "description": "",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

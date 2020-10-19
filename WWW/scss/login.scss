@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    background-color: #fff;
+}
+
+.w {
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.banner {
+    position: relative;
+    height: 588px;
+
+    img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.layout {
+    position: absolute;
+    left: 63%;
+    top: 30%;
+    width: 450px;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 40px;
+
+
+
+    .register_title {
+        margin-bottom: 30px;
+
+        h1 {
+            font-size: 30px;
+            font-weight: 400;
+            color: #ff6700;
+        }
+    }
+
+    .user_info {
+        padding-bottom: 40px;
+        .toLogin{
+            margin-bottom: 10px;
+        }
+        .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+
+            label {
+                width: 100px;
+                text-align: right;
+                padding-right: 20px;
+                box-sizing: border-box;
+            }
+
+            input {
+                outline: none;
+                height: 40px;
+                width: 300px;
+                margin-right: 100px;
+            }
+
+
+
+        }
+
+        .submit {
+            text-align: center;
+            margin-bottom: 60px;
+
+            button {
+                width: 300px;
+                height: 40px;
+                background-color: #ff6700;
+                border-color: #ff6700;
+                color: #fff;
+                outline: none;
+            }
+        }
+
+        p {
+            font-size: 14px;
+            color: #b69db6;
+
+            strong {
+                color: black;
+            }
+        }
+
+
+    }
+}
+
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+
+    p {
+        margin-bottom: 20px;
+        color: #9d9d9d;
+
+        strong {
+            color: black;
+        }
+    }
+}
